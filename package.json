@@ -1,0 +1,26 @@
+{
+  "name": "demo-counter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "dxapp-scripts start",
+    "test": "dxapp-scripts test"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "dxapp-scripts": "https://dxapp-modules.s3.amazonaws.com/outer/dxapp-scripts-0.1.1.tgz"
+  },
+  "dxapps": {
+    "modules": {}
+  }
+}

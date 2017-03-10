@@ -1,0 +1,15 @@
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 90px;
+    cursor: pointer;
+}
+
+.counter {
+    margin: 0 50px;
+    display: inline-block;
+    font-size: 90px;
+    line-height: 100px;
+}

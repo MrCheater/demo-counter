@@ -1,0 +1,11 @@
+./tests/**/*.tests.js
+
+--reporter spec
+--recursive
+--use-strict
+--check-leaks
+--colors
+
+--require ./tests/tests-config/babel_import_patch
+--require ./tests/tests-config/patch_require
+--require ./tests/tests-config/setup
