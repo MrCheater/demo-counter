@@ -1,7 +1,7 @@
-# About
+# React.js Best Practices
 ###Components
 https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
-My presentational components:
+##### My presentational components:
 * Are concerned with how things look.
 * May contain both presentational and container components** inside, and usually have some DOM markup and styles of their own.
 * Often allow containment via this.props.children.
@@ -12,7 +12,7 @@ My presentational components:
 * Are written as functional components unless they need state, lifecycle hooks, or performance optimizations.
 Examples: Page, Sidebar, Story, UserInfo, List.
 
-My container components:
+##### My container components:
 * Are concerned with how things work.
 * May contain both presentational and container components** inside but usually don’t have any DOM markup of their own except for some wrapping divs, and never have any styles.
 * Provide the data and behavior to presentational or other container components.
