@@ -5,7 +5,7 @@ export const contextPort = 5001;
 
 export const eventStore = {
     type: 'file',
-    pathToFile: './localDatabase/db.json'
+    pathToFile: './db.json'
 };
 
 // Uncomment the following to store events in mongoDB (instead of local file)
