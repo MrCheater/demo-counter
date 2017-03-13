@@ -1,22 +1,22 @@
-import { INCREMENT_COUNT_REQUEST, INCREMENT_COUNT_SUCCESS, INCREMENT_COUNT_FAILURE, DECREMENT_COUNT_REQUEST, DECREMENT_COUNT_SUCCESS, DECREMENT_COUNT_FAILURE } from './reducer';
+import * as ActionTypes from './ActionTypes';
 
 const actions = {
     incrementCounterRequest() {
         return {
-            type : INCREMENT_COUNT_REQUEST,
+            type : ActionTypes.INCREMENT_COUNT_REQUEST,
         }
     },
 
     incrementCounterSuccess(response) {
         return {
-            type : INCREMENT_COUNT_SUCCESS,
+            type : ActionTypes.INCREMENT_COUNT_SUCCESS,
             response,
         }
     },
 
     incrementCounterFailure(error) {
         return {
-            type : INCREMENT_COUNT_FAILURE,
+            type : ActionTypes.INCREMENT_COUNT_FAILURE,
             error,
         }
     },
@@ -33,20 +33,20 @@ const actions = {
 
     decrementCounterRequest() {
         return {
-            type : DECREMENT_COUNT_REQUEST
+            type : ActionTypes.DECREMENT_COUNT_REQUEST
         }
     },
 
     decrementCounterSuccess(response) {
         return {
-            type : DECREMENT_COUNT_SUCCESS,
+            type : ActionTypes.DECREMENT_COUNT_SUCCESS,
             response,
         }
     },
 
     decrementCounterFailure(error) {
         return {
-            type : DECREMENT_COUNT_FAILURE,
+            type : ActionTypes.DECREMENT_COUNT_FAILURE,
             error,
         }
     },
